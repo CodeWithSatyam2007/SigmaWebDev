@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video, Audio & Media in HTML</title>
+</head>
+
+<body>
+    <h1>Video, Audio & Media in HTML</h1>
+    <h2>VIDEO</h2>
+    <div>
+        <video src="video.mp4" width="500" controls loop muted poster="thumbnail.jpg"></video>
+        <!-- <video src="video.mp4" width="500" controls loop muted autoplay poster="thumbnail.jpg"></video> -->
+    </div>
+
+    <div>
+        <audio src="music.mp3" controls loop></audio>
+        <audio src="music.mp3" controls loop preload="auto"></audio>
+    </div>
+    <h2>Preload Attribute</h2>
+    <p>
+        Specifies if and how the audio should be loaded when the page loads ('auto', 'metadata', 'none')
+    </p>
+    <div>
+        <img src="preload.png" alt="" width="900">
+    </div>
+    <img src="img.svg" alt="">
+    <div>
+        <iframe src="https://www.codewithharry.com/tutorial/working-with-svg" frameborder="0" width="560"
+            height="315"></iframe>
+    </div>
+    <div>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/XZwBNDGuWGU?si=jH_XsXuGyYVYC1Wh&amp;start=796" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/XZwBNDGuWGU?si=efRrhskghf2TxGun" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+</body>
+
+</html>
