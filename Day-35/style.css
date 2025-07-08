@@ -1,0 +1,59 @@
+/* .box:first-child{
+    background-color: red;
+} */
+
+/* .box1::first-line{
+    color: red;
+} */
+
+.boxes * {
+  color: blue;
+  border: 2px solid black;
+}
+
+/* p, a, .box1, .box2, .box3, [data-color="primary"] {
+    margin-top: 40px;
+    padding-top: 40px;
+} */
+
+/* .box:nth-child(even){
+    background-color: blue;
+} */
+/* .box:nth-child(odd){
+    background-color: blue;
+} */
+
+/* .box:nth-last-child(1){
+    background-color: red;
+} */
+
+/* .boxes::before{
+    content: "I am a content before the boxes";
+    color: red;
+}
+
+.boxes::after{
+    content: "I am a content after the boxes";
+    color: blue;
+} */
+
+::selection {
+  color: yellow;
+  background-color: black;
+}
+
+::first-letter{
+    color: red;
+}
+
+input{
+    margin-top: 20px;
+    border-radius: 20px;
+    border: 3px solid black;
+    text-align: center;
+    color: red;
+}
+
+input::placeholder{
+    color: rgb(28, 28, 32);
+}

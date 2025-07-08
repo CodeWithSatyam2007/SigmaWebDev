@@ -1,0 +1,37 @@
+*{
+    background-color: black;
+    color: yellow;
+}
+p {
+    /* font-family: 'Courier New', Courier, monospace; */
+    /* font-style:italic;
+    font-weight:500;
+    text-decoration: underline; */
+    /* font-family: 'Baloo Bhai 2', sans-serif; */
+    font-family: "Poppins", sans-serif;
+    font-size: 30px;
+    line-height: 4;
+    }
+
+h1{
+    letter-spacing: 56px;
+    text-align: center;
+}
+
+h2{
+    text-transform:capitalize;
+    text-decoration: underline;
+    text-decoration-color: red;
+    text-decoration-style: dotted;
+    text-decoration-thickness: 7px;
+    letter-spacing: 3px;
+    text-align: center;
+}
+
+.lorem{
+    border: 2px solid red;
+    width: 140px;
+    word-break: break-all;
+    /* text-overflow: ellipsis;
+    overflow: hidden; */
+}

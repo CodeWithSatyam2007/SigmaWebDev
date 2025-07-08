@@ -1,0 +1,23 @@
+/* Below, h1 is an element selector */
+h1 {
+    color: aqua;
+}
+
+.yellow {
+    color: yellow !important;
+}
+
+.cred {
+    color: red !important;
+}
+
+.cpurple {
+    color: purple;
+}
+
+.order{
+    color: yellow;
+    background-color: black;
+    text-decoration: underline;
+    font-size: 30px;
+}

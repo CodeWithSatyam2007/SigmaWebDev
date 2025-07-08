@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.red {
+    box-sizing: border-box;
+    border: 2px solid black;
+    /* width: 2048px; */
+    width: 80vw;
+    height: 10vh;
+    margin: auto;
+    background-color: aquamarine;
+}
+
+.rdn {
+    box-sizing: border-box;
+    border: 2px solid red;
+    width: 80vw;
+    height: 10vh;
+    margin: 23px auto;
+    color: yellow;
+    background-color: black;
+}
+
+.cont p{
+    border: 2px solid blue;
+    box-sizing: border-box;
+    margin: 23px auto;
+    width: 80vw;
+    min-height: 80vh;
+}

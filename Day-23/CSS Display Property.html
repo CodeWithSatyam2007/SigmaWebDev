@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Display Property</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        .box {
+            padding: 34px;
+            margin: 25px;
+            border: 2px solid blue;
+            display: inline-block;
+            background-color: yellow;
+        }
+        a{
+            font-size: 20px;
+        }
+
+        a:visited {
+            color: red;
+        }
+
+        a:hover {
+            background-color: yellow;
+            color: red;
+        }
+        .box1 {
+            /* display: none; */
+            visibility: hidden;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box box1">
+        I am a box
+    </div>
+    <div class="box box2">
+        I am a box
+    </div>
+    <span>I am span1</span>
+    <span>I am span2</span>
+    <br>
+    <a href="https://www.google.com">Go to Google</a>
+</body>
+
+</html>

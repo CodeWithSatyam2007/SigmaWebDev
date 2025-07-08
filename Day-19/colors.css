@@ -1,0 +1,29 @@
+.heading{
+    font-size: 40px;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+li{
+    font-size: 30px;
+}
+
+.color-keywords{
+    color:green;
+}
+
+.hex-color{
+    color: #f8592c;
+}
+
+.rgb{
+    color: rgb(62 218 255);
+}
+
+.rgba{
+    color:rgba(23, 220, 62, 0.769)
+}
+
+.hsl{
+    color:hsl(235, 100%, 50%)
+}

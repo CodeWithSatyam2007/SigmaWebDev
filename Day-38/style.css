@@ -1,0 +1,23 @@
+/* * {
+  margin: 0;
+  padding: 0;
+} */
+
+.container {
+  border: 2px solid red;
+  display: flex;
+  height: 90vh;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column-reverse;
+  flex-direction: row-reverse;
+}
+
+.items {
+  height: 100px;
+  width: 100px;
+  border: 2px solid black;
+  margin: 6px;
+  background-color: blueviolet;
+  text-align: center;
+}

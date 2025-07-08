@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* ! Global Variable declared */
+:root{
+    --color: rgb(0, 255, 13);
+    --seccolor: rgb(157, 157, 249);
+    --defpad: 23px;
+    --defop: 0.1;
+}
+
+.navbar {
+  /* background-color: rgb(80, 225, 80); */
+  background-color: var(--color);
+  margin: 4px;
+}
+
+ul{
+    display: flex;
+}
+
+ul li{
+    list-style: none;
+    /* padding: 23px; */
+    padding: var(--defpad);
+    opacity: var(--defop);
+}
+
+ul li:first-child{
+    /* ! Local Variable declared which overwrites Global Variable */
+    /* --color: orange; */
+    background-color: var(--color);
+    /* ! If no color vaiable is found, it'll apply fallback color as given below */
+    background-color: var(--color, red);
+}
+
+.container {
+  /* background-color: rgb(165, 254, 165); */
+  background-color: var(--seccolor);
+  margin: 4px;
+}

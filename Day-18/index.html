@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Box Model</title>
+    <style>
+        .box {
+            background-color: black;
+        }
+
+        /* "*" represents to all */
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        /* Total Width = Width + Left Padding + Right Padding + Left Border + Right Border + Left Margin + Right Margin
+        
+        Total Height = Height + Top Padding + Bottom Padding + Top Border + Bottom Border + Top Margin + Bottom Margin */
+        .box1 {
+            color: yellow;
+            padding: 10px;
+            margin: 25px;
+            border: 2px solid red;
+            height: 100px;
+            box-sizing: border-box;
+        }
+        /* box-sizing:border-box means the height 100px given is total height of content+padding+border all together */
+
+        .box2 {
+            color: red;
+            padding: 10px;
+            margin: 25px;
+            border: 2px solid red;
+            height: 100px;
+            box-sizing: border-box;
+        }
+        /* In the above margin of box1 is 35px and box2 is 25px. But in browser, it shows only 35px. It doesn't showed 35+25=60px. Due to Margin Collapse. i.e. if any 2 margin is collapsing, then the margin with highest px will be shown, i.e. 35px is shown */
+    </style>
+</head>
+
+<body>
+    <div class="box box1">
+        I am box box1
+    </div>
+    <div class="box box2">
+        I am box box2
+    </div>
+</body>
+
+</html>

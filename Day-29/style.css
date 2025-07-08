@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: gray;
+  padding: 12px;
+}
+
+.card {
+  background-color: white;
+  height: 600px;
+  width: 400px;
+  border-radius: 19px;
+}
+
+.image {
+  padding: 10px;
+}
+.image img {
+  border-radius: 19px;
+}
+
+.nav {
+  padding: 0px 8px;
+}
+
+.nav span {
+  border: 1px solid gray;
+  border-radius: 15px;
+  padding: 6px 8px;
+}
+
+.content {
+  font-family: sans-serif;
+  padding: 13px;
+}
+
+.button {
+  text-align: center;
+}
+
+.button button {
+  padding: 9px 16px;
+  border-radius: 18px;
+  background-color: rgb(165, 165, 242);
+  color: blue;
+  border: none;
+  margin-top: 4px;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.button button:hover {
+  background-color: black;
+  color: yellow;
+}

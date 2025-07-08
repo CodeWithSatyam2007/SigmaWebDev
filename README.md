@@ -1,2 +1,2 @@
-# SigmaWebDev
-Learning WebDevelopment from SigmaWebDev course of CodeWihaHarry
+# Web Development
+Learning Web Development
